@@ -1,3 +1,15 @@
+
+To Init project:
+./init
+git clone git@github.com:wrt54gl/tradesimple.git
+composer update
+./yii migrate --migrationPath=@yii/rbac/migrations
+./yii migrate --migrationPath=@mdm/admin/migrations
+php yii migrate
+Now you can log in as Administrator. (Username: admin Password: admin) 
+
+
+
 Yii 2 Advanced Application Template
 ===================================
 
